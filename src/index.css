@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* black background */
+  color: #fff; /* white text */
+}
+
+h2 {
+  color: #fff;
+}
+
+/* Input and button styles */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8000; /* orange accent */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #e67300; /* darker orange on hover */
+}
+
+/* Card container */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual cards */
+.card {
+  width: 180px;          
+  min-height: 250px;     
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 128, 0, 0.5); /* subtle orange glow */
+}
+/* Locked cards */
+.card.locked {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Completed cards */
+.card.completed {
+  background-color: #ff8000; /* orange background */
+  color: #000;               /* black text */
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: inherit;
+}
+
+
+/* Responsive adjustments */
+
+/* Tablet: slightly wider */
+@media (max-width: 1024px) {
+  .card {
+    width: 150px;
+    min-height: 230px;
+  }
+}
+
+/* Mobile: full-width stacking */
+@media (max-width: 600px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;       /* almost full width */
+    min-height: 200px;
+    margin-bottom: 15px;
+  }
+}
