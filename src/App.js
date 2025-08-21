@@ -117,6 +117,8 @@ const App = () => {
           <Quiz
             card={cards.find((c) => c.id === activeCard)}
             onComplete={handleQuizComplete}
+            onBack={() => setActiveCard(null)}
+
           />
         ) : (
           <CardList
