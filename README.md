@@ -30,8 +30,8 @@ The app blends **educational content** with **quizzes**, allowing users to study
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/sentient-quiz.git
-cd sentient-quiz
+git clone https://github.com/sheriffMahadi/sentientAGIQuiz.git
+cd sentientAGIQuiz
 ```
 ### 2. Install dependecies
 ```
