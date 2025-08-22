@@ -2,7 +2,7 @@
 const cards = [
   {
     id: 1,
-    title: "Card 1: Mission 🚀",
+    title: "Quiz 1: Mission 🚀",
     questions: [
       {
         q: "What is Sentient’s main mission?",
@@ -71,7 +71,7 @@ const cards = [
   },
   {
     id: 2,
-    title: "Card 2: The Big Problem ⚠️",
+    title: "Quiz 2: The Big Problem ⚠️",
     questions: [
       {
         q: "Why is closed-source AGI considered risky?",
@@ -140,7 +140,7 @@ const cards = [
   },
   {
     id: 3,
-    title: "Card 3: Sentient’s Vision 🌍",
+    title: "Quiz 3: Sentient’s Vision 🌍",
     questions: [
       {
         q: "How does Sentient define AGI?",
@@ -209,7 +209,7 @@ const cards = [
   },
   {
   id: 4,
-  title: "Card 4: GRID 🧠",
+  title: "Quiz 4: GRID 🧠",
   questions: [
     {
       q: "What is the main way users interact with Sentient AGI?",
@@ -265,6 +265,75 @@ const cards = [
         "It’s just for fun and memes"
       ],
       answer: "It keeps AGI open, community-powered, and sustainable"
+    }
+  ]
+},
+{
+  id: 5,
+  title: "Quiz 5: Contributions ✨",
+  questions: [
+    {
+      q: "Which of these is NOT a valuable way to contribute to Sentient?",
+      options: [
+        "Creating educational content",
+        "Helping members in the Discord community",
+        "Mass-generating AI spam content"
+      ],
+      answer: "Mass-generating AI spam content"
+    },
+    {
+      q: "Where should contributors share their work or links?",
+      options: [
+        "In the relevant Discord channels",
+        "Directly in private DMs to admins",
+        "On random Twitter threads"
+      ],
+      answer: "In the relevant Discord channels"
+    },
+    {
+      q: "Which Discord channel is meant for sharing artworks?",
+      options: [
+        "💻│builder-junior",
+        "🎨│artist-junior",
+        "📓│educator-junior"
+      ],
+      answer: "🎨│artist-junior"
+    },
+    {
+      q: "What is the purpose of ⁠👤│claim-contributor-roles?",
+      options: [
+        "To get access to contributor channels",
+        "To submit bug reports",
+        "To play trivia games"
+      ],
+      answer: "To get access to contributor channels"
+    },
+    {
+      q: "Which of these best describes valuable educator contributions?",
+      options: [
+        "Repeating official announcements word-for-word",
+        "Offering thoughtful analysis, insights, or guides",
+        "Posting only short summaries without context"
+      ],
+      answer: "Offering thoughtful analysis, insights, or guides"
+    },
+    {
+      q: "What happens after making significant contributions in a specific area?",
+      options: [
+        "You can request an AGI role promotion",
+        "You automatically become a moderator",
+        "You gain corporate-only privileges"
+      ],
+      answer: "You can request an AGI role promotion"
+    },
+    {
+      q: "Which of the following is encouraged for builders?",
+      options: [
+        "Showcasing innovative tools, apps, or agents",
+        "Avoiding collaboration with others",
+        "Mass-generating generic AI projects without originality"
+      ],
+      answer: "Showcasing innovative tools, apps, or agents"
     }
   ]
 }
