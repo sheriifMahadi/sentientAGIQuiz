@@ -2,7 +2,7 @@
 const cards = [
   {
     id: 1,
-    title: "Quiz 1: Mission 🚀",
+    title: "Quiz 1: Mission",
     questions: [
       {
         q: "What is Sentient’s main mission?",
@@ -71,7 +71,7 @@ const cards = [
   },
   {
     id: 2,
-    title: "Quiz 2: The Big Problem ⚠️",
+    title: "Quiz 2: The Big Problem",
     questions: [
       {
         q: "Why is closed-source AGI considered risky?",
@@ -140,7 +140,7 @@ const cards = [
   },
   {
     id: 3,
-    title: "Quiz 3: Sentient’s Vision 🌍",
+    title: "Quiz 3: Sentient’s Vision",
     questions: [
       {
         q: "How does Sentient define AGI?",
@@ -209,7 +209,7 @@ const cards = [
   },
   {
   id: 4,
-  title: "Quiz 4: GRID 🧠",
+  title: "Quiz 4: GRID",
   questions: [
     {
       q: "What is the main way users interact with Sentient AGI?",
@@ -270,7 +270,7 @@ const cards = [
 },
 {
   id: 5,
-  title: "Quiz 5: Contributions ✨",
+  title: "Quiz 5: Contributions",
   questions: [
     {
       q: "Which of these is NOT a valuable way to contribute to Sentient?",

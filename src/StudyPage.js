@@ -21,7 +21,7 @@ const StudyPage = ({ onBack }) => {
       </button>
 
       <h2 style={{ textAlign: "center", marginTop: "30px", marginBottom: "15px" }}>
-        Mission 🚀
+        Mission 
       </h2>
       <p>
         Sentient’s mission is to ensure <strong>AGI remains loyal to humanity</strong>, not corporations.
@@ -40,7 +40,7 @@ const StudyPage = ({ onBack }) => {
       </p>
 
       <h2 style={{ textAlign: "center", marginTop: "40px", marginBottom: "15px" }}>
-        The Big Problem ⚠️
+        The Big Problem 
       </h2>
       <p>
         The danger of <strong>closed-source AGI</strong> is that only a handful of corporations, such as
@@ -58,7 +58,7 @@ const StudyPage = ({ onBack }) => {
       </p>
 
       <h2 style={{ textAlign: "center", marginTop: "40px", marginBottom: "15px" }}>
-        Vision 🌍
+        Vision 
       </h2>
       <p>
         Sentient defines AGI not as one massive model, but as a <strong>network of specialized intelligences</strong>.
@@ -83,7 +83,7 @@ const StudyPage = ({ onBack }) => {
       </p>
 
       <h2 style={{ textAlign: "center", marginTop: "40px", marginBottom: "15px" }}>
-        The Grid ⚡
+        The Grid 
       </h2>
       <p>
         The <strong>Grid</strong> is how Sentient makes the ecosystem function in practice.
